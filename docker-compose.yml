@@ -1,6 +1,6 @@
 services:
   notary:
-    image: docker.io/anhelinakruk/notary-server:latest
+    image: docker.io/anhelinakruk/notary-server:amd64
     container_name: notary
     ports:
       - "7047:7047"
